@@ -81,3 +81,30 @@ nav {
 .nav ul li:hover > ul {
     display: block;
 }
+
+
+/*____________________________________________*/
+
+h1,  h3{
+    text-align: center;
+    padding: 30px;
+}
+.contenedorHabilidades{
+    background-color: rgba(128, 128, 128, 0.38);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding: 30px;
+}
+
+.habilidad{
+    display: grid;
+    grid-auto-rows: 1fr 2fr;
+    place-items: center;
+    padding: 30px;
+
+}
+
+.habilidad img{
+    width: 300px;
+}
