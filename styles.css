@@ -5,10 +5,16 @@
     padding:0px;
 }
 
-header {
+body {
     margin:auto;
     width:100%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Arial Narrow", serif;
+    font-size: 18px;
+}
+
+body{
+    display: block;
+    text-align: center;
 }
 
 
@@ -111,11 +117,17 @@ h1,  h3{
     width: 300px;
 }
 
-/*________________body de cada nivel de inglés____________________________*/
-.basicLevel{
-    display: grid;
-    padding: 40px;
-    place-items: center;
-    row-gap: 50px;
 
+
+.contenedorInfo{
+    display: grid;
+    place-items: center;
+    background-color: rgba(128, 128, 128, 0.4);
+    justify-items: stretch;
+    padding: 30px;
+}
+
+.contenedorInfo h2{
+    color: black;
+    background-color: rgba(128, 128, 128, 0.54);
 }
