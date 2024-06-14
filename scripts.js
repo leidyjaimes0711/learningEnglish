@@ -4,4 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             document.getElementById('navbar').innerHTML = data;
         });
+
+
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector('footer').innerHTML = data;
+        });
 });

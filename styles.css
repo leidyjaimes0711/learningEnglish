@@ -12,7 +12,7 @@ header {
 }
 
 
-/*___________________*/
+/*_______barra de navegación____________*/
 
 nav {
     background-color: #000;
@@ -83,12 +83,14 @@ nav {
 }
 
 
-/*____________________________________________*/
+/*________________body____________________________*/
 
 h1,  h3{
     text-align: center;
     padding: 30px;
 }
+
+
 .contenedorHabilidades{
     background-color: rgba(128, 128, 128, 0.38);
     display: grid;
@@ -107,4 +109,13 @@ h1,  h3{
 
 .habilidad img{
     width: 300px;
+}
+
+/*________________body de cada nivel de inglés____________________________*/
+.basicLevel{
+    display: grid;
+    padding: 40px;
+    place-items: center;
+    row-gap: 50px;
+
 }
